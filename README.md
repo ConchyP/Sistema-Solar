@@ -24,3 +24,8 @@ La clase debe incluir los siguientes métodos:
 - Un planeta exterior está situado más allá del cinturón de asteroides. El cinturón de asteroides se encuentra entre 2.1 y 3.4 UA. Una unidad astronómica (UA) es la distancia entre la Tierra y el Sol = 149597870 Km.
 - En el método main de la clase App se deben crear dos planetas y mostrar los valores de sus atributos en pantalla. Además, se debe imprimir la densidad de cada planeta y si el planeta es un planeta exterior del sistema solar.
 
+## Diagrama de clases 
+
+![image](https://github.com/user-attachments/assets/4c443df0-d3b8-4f93-bc71-97fdf748d141)
+![image](https://github.com/user-attachments/assets/769fb939-eab2-4cab-ad42-babee8a93c35)
+
