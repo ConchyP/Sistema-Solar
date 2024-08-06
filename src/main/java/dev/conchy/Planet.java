@@ -1,7 +1,5 @@
 package dev.conchy;
 
-import dev.conchy.enums.PlanetType;
-
 public class Planet {
 
     private String name = null;
@@ -123,10 +121,10 @@ public class Planet {
 
     @Override
     public String toString() {
-        return "Planet [name=" + name + ", satellites=" + satellites + ", mass=" + mass + ", volume=" + volume
-                + ", diameter=" + diameter + ", averageDistanceToSun=" + averageDistanceToSun + ", type="
-                + planetType + ", observable=" + observable + ", orbitalPeriod=" + orbitalPeriod + ", rotationPeriod="
-                + rotationPeriod + ", density=" + calculateDensity() + ", exterior=" + isExterior() + "]";
+        return "Planet [name: " + name + ", satellites: " + satellites + ", mass: " + mass + ", volume: " + volume
+                + ", diameter: " + diameter + ", averageDistanceToSun: " + averageDistanceToSun + ", type: "
+                + planetType + ", observable: " + observable + ", orbitalPeriod: " + orbitalPeriod + ", rotationPeriod: "
+                + rotationPeriod + ", density: " + calculateDensity() + ", exterior: " + isExterior() + "]";
     }
 
 }

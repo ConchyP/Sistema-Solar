@@ -1,6 +1,5 @@
 package dev.conchy;
 
-import dev.conchy.enums.*;
 
 public final class AppPlanet {
     private AppPlanet() {
